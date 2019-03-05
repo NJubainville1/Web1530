@@ -1,0 +1,236 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 1821px;
+    color: white;
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: 400;
+}
+.container, .container-foot{
+    width: 1200px;
+    margin: 0 auto;
+}
+header img{
+    margin-top: 50px;
+    width: 117px;
+}
+header{
+    background-image: url(../img/banner-image.webp);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 1177px;
+}
+h1{
+    font-weight: 300;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 330px;
+    letter-spacing: 2px;    
+}
+.false-caps{
+    font-size: 45px;
+}
+.banner-notes{
+    padding-top: 15px;
+    width: 450px;
+    line-height: 2;
+}
+.intro-text{
+    color: #9c9c9c;
+    margin-top: -125px;
+    display: flex;
+}
+.left-intro-text{
+    flex: 50%;
+    margin-right: 45px;
+}
+.intro-text-header{
+    color: #222626;
+    font-size: 35px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.intro-text-notes{
+    line-height: 1.8;
+    text-indent: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.right-intro-text{
+    margin-top: 170px;
+    flex: 50%;
+}
+.boxes{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxes-section{
+    padding: 45px 45px 40px 45px;
+}
+.boxes-item-notes{
+    padding-bottom: 47px;
+}
+.boxes-item-1, .boxes-item-2, .boxes-item-3, .boxes-item-5{
+    flex: 33.3%;
+}
+.boxes-item-4{
+    flex: 66.6%;
+}
+.boxes-item-1{
+    background: #f5989d;
+}
+.boxes-item-2{
+    background: #615f7d;
+}
+.boxes-item-3{
+    background: url(../img/small-grid-img.webp);
+    background-repeat: no-repeat;
+}
+.boxes-item-4{
+    background: url(../img/large-grid-img.webp);
+    background-repeat: no-repeat;
+}
+.boxes-item-4-p{
+    width: 440px;
+}
+.boxes-item-5{
+    background: #82ca9c;
+}
+.boxes-item-header{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.hook-link{
+    font-family: 'YoungSerifRegular';
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.heart-fix{
+    padding-top: 18px; 
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.details{
+    margin-top: 85px;
+    margin-bottom: 160px;
+}
+.details-main-header{
+    color: #222626;
+    font-size: 35px;
+    font-weight: 300;
+}
+.details-areas{
+    display: flex;
+}
+.details-area{
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.details-area:last-of-type{
+    margin-right: 0;
+}
+.details-area-header{
+    margin-bottom: 20px;
+    color: #222626;
+    font-weight: 600;    
+}
+.details-notes{    
+    font-size: 14px;
+    line-height: 1.7;
+    color:#9c9c9c;
+}
+.power-banner{    
+    background-image: url(../img/large-mid-img.webp);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 120px;
+}
+.power-banner-header{
+    padding-top: 440px;
+    line-height: 1.2;
+    font-size: 60px;
+    font-weight: 300;
+    width: 515px;
+    margin-bottom: 20px;
+}
+.power-banner-notes{
+    width: 475px;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+.italics{
+    font-style: italic;
+}
+footer{
+    background: #192431;
+    color: #f6f7fa;
+}
+.container-foot{
+    display: flex;
+    justify-content: space-between;
+}
+.left-foot-header{
+    font-weight: 600;
+}
+.left-foot, .right-foot{
+    padding: 130px 0 120px 0;
+}
+.left-foot-note{
+    padding-top: 35px;
+    line-height: 2;
+    width: 575px;
+}
+.right-foot-note{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #4f6075;
+    width: 355px;
+}
+input{    
+    font-size:18px;
+    height:62px;   
+    border: white;
+    border-radius: 3px;   
+}
+label{
+    background: #82ca9c;
+    padding: 16px 22px 16px 22px;
+    margin-left: -5px;
+    border-radius: 2px;
+}
+.bar-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar-text-header{
+    flex: 76%;
+}
+.twitter{
+    color: #32cdfb;
+}
+.fb{
+    color: #38548f;
+}
+.linkin{
+    color: #2686b9;
+}
+.large-icons:hover{
+    color: #e3e3e3;
+}
+.icon{
+    width: 16px;
+    margin-bottom: 3px;
+}
+.large-icons, .check{
+    width: 30px;
+}
+.large-icons{
+    flex: 8%;
+    margin-left: 15px;
+}
